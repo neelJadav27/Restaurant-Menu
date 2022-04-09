@@ -1,26 +1,16 @@
-# 2022 Internship Menu Exercise
+<h1>Restaurant Menu</h1>
 
-Tackle the following steps to create a menu for a "Fancy Italian Restaurant".
+<h2>Work/Project Example</h2>
 
-## 1. Sorting
+<b>1) Minesweeper: </b>
+    Recently, I have developed one small game using Javascript named Minesweeper. I have developed that entire game during my free time. The purpose to develop this game, was to enchance my technical difficulties. 
+    
+<b>2) WindsAR:</b>
+      WindsAR is a mobile application which is developed to increase the revenue of tourism in Windsor city. The purpose of this project is to provide key information about various tourist places to the visitors in an Augmented way. Another primary goal of ‘WindsAR’ is to increase business of local vendors like shops, restaurants, cafes in Windsor and bring new customers to their doorstep.
+       My roles and responsibility in this project was to create Django REST APIs for the frontend team. As I already had an experience of front-end experience. So, I took initiative to get the knowledge of API development. I was also helping front-end team during difficulties.
+       
+<b>3) Crypto Bazaar </b>
+      This was a Django web application project. In this project, we have used yFinance API to get live crypto data. I have rendered the data and based on that displayed those data into graphs and displayed predicted crypto prices.
+      
 
-- In `index.js`, loop over `menuItems` and categorize them into sections based on each items assigned `type`
-- Sort the items in each category by their `menuOrder`
 
-## 2. Rendering
-
-- Render the sorted results into the appropriate container with `index.html`
-- Format any prices. For example, 8.5 becomes \$8.50
-- Render the "spicy" icon next to any menu items where `spicy` is `true`
-
-## 3. Styling
-
-- Add some "italian menu" styling to boost your stores sales. Use Google Images if you need inspiration.
-
-## 4. BONUS: Filtering
-
-- Add a checkbox to toggle spicy options. When the checkbox is checked, the spicy options should be visible. It should be checked by default.
-
-## 5. BONUS: What You'd Change
-
-- Create a new file called "TODO.md". Add any additional changes you'd recommend making if this was a project you were working on for a real client.
