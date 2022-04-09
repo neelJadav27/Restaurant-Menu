@@ -1,0 +1,86 @@
+html,body{
+    margin: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.grid-span{
+    grid-column-start: 1;
+    grid-column: span 2;
+}
+.image{
+    border-radius: 50%;
+}
+
+.item-box
+{
+    display: flex;
+    /* flex-grow: 0; */
+}
+.item-detail
+{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-description{
+    font-size: 0.8rem;
+}
+.item-description:hover{
+    font-size: 1rem;
+}
+.item-name{
+    font-size: 1.5rem;
+}
+.item-price{
+    font-size: 1rem;
+    color : goldenrod;
+}
+.spicy{
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url("../assets/spicy.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+    top: 2px;
+}
+.image{
+    border-radius: 50%;
+}
+.textGap{
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+.spicy-option{
+    
+    width: 95vw;
+    height: 50px;
+    background-color:black;
+    font-family: cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spicyOptionDiv{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: cursive;
+    margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "italian-menu",
+  "version": "1.0.0",
+  "description": "Tackle the following steps to create a menu for a \"Fancy Italian Restaurant\".",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

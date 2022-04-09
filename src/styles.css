@@ -1,0 +1,39 @@
+html,body{
+  margin: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.spicy:before {
+  width: 16px;
+  height: 16px;
+  content: "";
+  background-image: url("../assets/spicy.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 3px;
+  position: relative;
+  top: 2px;
+}
+
+.spicy:after{
+  content: none;
+}
+
+.desc{
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.container
+{
+    display: flex;
+}
